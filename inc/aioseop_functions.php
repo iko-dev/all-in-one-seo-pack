@@ -674,11 +674,9 @@ if ( !function_exists( 'aioseop_add_contactmethods' ) ) {
                 //Add title to custom field in Profile contact section
                 if(empty( $aioseop_options['aiosp_google_disable_profile'] ) || !empty( $aioseop_modules ) && is_object( $aioseop_modules ))
                 {
-<<<<<<< HEAD
-                  $contactmethods['title'] = __( 'Custom Field Section ', 'all-in-one-seo-pack' );  
-=======
+
                   $contactmethods['title'] = __( 'All in One SEO Pack Profile Info', 'all-in-one-seo-pack' );  
->>>>>>> ikodev-issue-39
+
                 }
 		if ( empty( $aioseop_options['aiosp_google_disable_profile'] ) )
 			$contactmethods['googleplus'] = __( 'Google+', 'all-in-one-seo-pack' );
